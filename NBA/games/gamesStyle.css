@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../Rescources/nba_bc1.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  display: grid;
+  grid-template-rows: 8fr 84fr 8fr;
+  height: 100vh;
+
+}
+section{
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+table{
+  background-color: rgba(190, 158, 158, 0.445);
+  border-collapse: collapse;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  top: 5%;
+
+}
+th, td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: solid black 1px;
+  text-overflow:ellipsis;
+}

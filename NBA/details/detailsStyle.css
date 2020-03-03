@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../Rescources/nba_bc1.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 8fr 84fr 8fr;
+}
+
+section{
+  overflow: auto;
+  position: relative;
+}
+#title{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+
+}
+
+table{
+  background-color: rgba(190, 158, 158, 0.445);
+  border-collapse: separate;
+  padding: 6px;
+  text-align: center;
+}
+
+th, td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border-bottom: solid black 2px;
+}
+
+caption{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+#tablicaIgraca{
+  width: 100%;
+}
+
+#tablicaTrenera{
+  position: relative;
+  width: 100%;
+}
+
+#arenaContainer{
+  top: 50%;
+}
+
+#titleOfficialArena{
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+.deleteButtons{
+  background-image: url('../Rescources/trashIcon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: inherit;
+  text-indent: -9999px;
+  border: none;
+  width: 30px;
+  cursor: pointer;
+}
